@@ -1,0 +1,4 @@
+9874, Steve, 25, male, cleaner, 15, 816.0, 1
+8745, Charbel, 29, male, rh, 28, 1523.2, 2
+3698, Jeanne, 30, female, guard, 33, 1795.2, 3
+98745, Steve, 25, male, cleaner, 22, 1196.8, 1

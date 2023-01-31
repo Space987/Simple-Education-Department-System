@@ -1,0 +1,6 @@
+1111, Markov, 45, male, science, 5, 1
+2222, Marcarita, 21, female, science, 4, 3
+3333, Yena, 20, other, mathematic, 4, 2
+4444, Marquis, 18, male, Physics, 3, 4
+5555, Emma, 18, female, History, 2, 4
+6666, Taiandre, 20, male, Law, 5, 2

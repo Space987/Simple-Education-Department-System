@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="402.0" prefWidth="872.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.tFXMLController">
+   <children>
+      <VBox layoutX="15.0" layoutY="14.0" prefHeight="293.0" prefWidth="55.0" spacing="29.0">
+         <children>
+            <Label text="ID:" />
+            <Label text="Name:" />
+            <Label text="Age:" />
+            <Label text="Gender:" />
+            <Label text="Degree:" />
+            <Label layoutX="10.0" layoutY="218.0" text="Specialty:" />
+            <Label layoutX="10.0" layoutY="242.0" prefHeight="18.0" prefWidth="78.0" text="Dept:" />
+         </children>
+      </VBox>
+      <VBox layoutX="67.0" layoutY="14.0" prefHeight="298.0" prefWidth="173.0" spacing="20.0">
+         <children>
+            <TextField fx:id="tIdTf" minWidth="-Infinity" prefHeight="26.0" prefWidth="47.0" />
+            <TextField fx:id="tNameTf" />
+            <TextField fx:id="tAgeTf" />
+            <TextField fx:id="tGenderTf" />
+            <TextField fx:id="tDegreeTf" />
+            <TextField fx:id="tSpecialtyTf" layoutX="10.0" layoutY="253.0" />
+            <TextField fx:id="tDeptTf" layoutX="10.0" layoutY="262.0" />
+         </children>
+      </VBox>
+      <TableView fx:id="AllTeachers" layoutX="251.0" layoutY="31.0" prefHeight="342.0" prefWidth="621.0">
+        <columns>
+          <TableColumn fx:id="tIdCol" prefWidth="72.0" text="ID" />
+            <TableColumn fx:id="tNameCol" prefWidth="64.0" text="Name" />
+            <TableColumn fx:id="tAgeCol" prefWidth="62.0" text="Age" />
+            <TableColumn fx:id="tGenderCol" prefWidth="69.0" text="Gender" />
+            <TableColumn fx:id="tDegreeCol" prefWidth="67.6666259765625" text="Degree" />
+            <TableColumn fx:id="tSpecialtyCol" prefWidth="70.0" text="Specialty" />
+            <TableColumn fx:id="tPayCol" prefWidth="93.33331298828125" text="Pay" />
+            <TableColumn fx:id="tDeptCol" prefWidth="123.33331298828125" text="Department" />
+        </columns>
+      </TableView>
+      <Button fx:id="tDeleteBtn" layoutX="71.0" layoutY="320.0" mnemonicParsing="false" onAction="#chooseAction" prefHeight="25.0" prefWidth="55.0" text="Delete" textFill="#df1e3b" />
+      <Button fx:id="tUpdateBtn" layoutX="135.0" layoutY="320.0" mnemonicParsing="false" onAction="#chooseAction" prefHeight="25.0" prefWidth="55.0" text="Update" textFill="#4824ea" />
+      <Button fx:id="tSearchBtn" layoutX="135.0" layoutY="361.0" mnemonicParsing="false" onAction="#chooseAction" prefHeight="25.0" prefWidth="55.0" text="Search" textFill="#12ac3b" />
+      <Button fx:id="tInsBtn" layoutX="6.0" layoutY="320.0" mnemonicParsing="false" onAction="#chooseAction" prefHeight="25.0" prefWidth="55.0" text="Insert" textFill="#df56e4" />
+      <Button fx:id="tBackBtn" layoutX="6.0" layoutY="361.0" mnemonicParsing="false" onAction="#chooseAction" prefHeight="25.0" prefWidth="55.0" text="Back" />
+      <Button fx:id="tLoadBtn" layoutX="71.0" layoutY="361.0" mnemonicParsing="false" onAction="#chooseAction" prefHeight="25.0" prefWidth="55.0" text="Load" />
+   </children>
+</AnchorPane>

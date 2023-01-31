@@ -1,0 +1,5 @@
+1234, Steve James, 12, male, PhD, computer vision, 6128.64, 1
+2345, Patrick Dalton, 30, other, Bachelor's, pre-history, 2298.2400000000002, 3
+5546, Sana Malkesh, 28, female, PhD, topology, 6128.64, 2
+6854, Anastasia Ponomareva, 32, female, Master's, micro economy, 4487.04, 4
+12345, Steve James, 37, male, PhD, computer vision, 6128.64, 1
